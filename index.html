@@ -69,7 +69,9 @@
                 <div class="container">
                     <div class="nav-header">
                         <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
-                        <h1 id="fh5co-logo"><a href="index.html"><i class="icon-home"></i>Home<span>state</span></a></h1>
+                        <h1 id="fh5co-logo">
+                            <a href="index.html"><img src="images/Estatenerd-svg-navyblue.svg" alt="logo" style="width: 100px; height: auto;"></a>
+                        </h1>
                         <!-- START #fh5co-menu-wrap -->
                         <nav id="fh5co-menu-wrap" role="navigation">
                             <ul class="sf-menu" id="fh5co-primary-menu">
@@ -77,15 +79,13 @@
                                 <li>
                                     <a href="properties.html" class="fh5co-sub-ddown">Properties</a>
                                     <ul class="fh5co-sub-menu">
-                                        <li><a href="#">Family</a></li>
-                                        <li><a href="#">CSS3 &amp; HTML5</a></li>
-                                        <li><a href="#">Angular JS</a></li>
-                                        <li><a href="#">Node JS</a></li>
-                                        <li><a href="#">Django &amp; Python</a></li>
+                                        <li><a href="#">Land</a></li>
+                                        <li><a href="#">Houses</a></li>
+                                        <li><a href="#">For Sale</a></li>
+                                        <li><a href="#">For Rent</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="agent.html">Agent</a></li>
-                                <li><a href="blog.html">Blog</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </nav>
@@ -121,7 +121,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li style="background-image: url(images/img_bg_2.jpg);">
+                        <li style="background-image: url('images/img_bg_2.jpg');">
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-md-4 col-md-offset-4 col-md-pull-4 js-fullheight slider-text">
@@ -179,14 +179,14 @@
                             <div class="col-xxs-12 col-xs-12">
                                 <div class="input-field">
                                     <label for="from">Keyword:</label>
-                                    <input type="text" class="form-control" id="from-place" placeholder="Any" />
+                                    <input type="text" class="form-control" id="from-place" placeholder="Type here..." />
                                 </div>
                             </div>
                             <div class="col-xxs-12 col-xs-12">
                                 <section>
                                     <label for="class">Property Status:</label>
                                     <select class="cs-select cs-skin-border">
-									<option value="" disabled selected>Any</option>
+									<option value="" disabled selected>Selecct</option>
 									<option value="1">Rent</option>
 									<option value="2">Sale</option>
 								</select>
@@ -196,16 +196,19 @@
                                 <section>
                                     <label for="class">Property Type:</label>
                                     <select class="cs-select cs-skin-border input-half">
-									<option value="" disabled selected>Any</option>
-									<option value="1">Building</option>
-									<option value="2">Office</option>
+									<option value="" disabled selected>Select</option>
+									<option value="1">Land</option>
+									<option value="1">Duplex</option>
+									<option value="2">Semi-Detatched</option>
+									<option value="3">Maisonette</option>
+									<option value="3">Terraces</option>
 								</select>
                                 </section>
                             </div>
                             <div class="col-xxs-12 col-xs-12">
                                 <div class="input-field">
                                     <label for="from">Location:</label>
-                                    <input type="text" class="form-control" id="from-place" placeholder="Any" />
+                                    <input type="text" class="form-control" id="from-place" placeholder="Type here..." />
                                 </div>
                             </div>
                             <div class="col-xxs-12 col-xs-12">
@@ -213,7 +216,7 @@
                                     <label for="class">Price:</label>
                                     <div class="wide">
                                         <select class="cs-select cs-select-half cs-skin-border input-half">
-										<option value="" disabled selected>Any</option>
+										<option value="" disabled selected>Select</option>
 										<option value="1">Building</option>
 										<option value="2">Office</option>
 									</select>
@@ -231,13 +234,13 @@
                                     <div class="wide">
                                         <select class="cs-select cs-select-half cs-skin-border input-half">
 										<option value="" disabled selected>Any</option>
-										<option value="1">Building</option>
-										<option value="2">Office</option>
+										<option value="1">2</option>
+										<option value="2">4</option>
 									</select>
                                         <select class="cs-select cs-select-half cs-skin-border input-half">
 										<option value="" disabled selected>Any</option>
-										<option value="1">Building</option>
-										<option value="2">Office</option>
+										<option value="1">5</option>
+										<option value="2">6</option>
 									</select>
                                     </div>
                                 </section>
@@ -248,13 +251,13 @@
                                     <div class="wide">
                                         <select class="cs-select cs-select-half cs-skin-border input-half">
 										<option value="" disabled selected>Any</option>
-										<option value="1">Building</option>
-										<option value="2">Office</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
 									</select>
                                         <select class="cs-select cs-select-half cs-skin-border input-half">
 										<option value="" disabled selected>Any</option>
-										<option value="1">Building</option>
-										<option value="2">Office</option>
+										<option value="1">3</option>
+										<option value="2">4</option>
 									</select>
                                     </div>
                                 </section>
@@ -265,18 +268,18 @@
                                     <div class="wide">
                                         <select class="cs-select cs-select-half cs-skin-border input-half">
 										<option value="" disabled selected>Any</option>
-										<option value="1">Building</option>
-										<option value="2">Office</option>
+										<option value="1">300sqm</option>
+										<option value="2">400sqm</option>
 									</select>
                                         <select class="cs-select cs-select-half cs-skin-border input-half">
 										<option value="" disabled selected>Any</option>
-										<option value="1">Building</option>
-										<option value="2">Office</option>
+										<option value="1">500sqm</option>
+										<option value="2">600sqm</option>
 									</select>
                                     </div>
                                 </section>
                             </div>
-                            <div class="col-xxs-12 col-xs-12">
+                            <!-- <div class="col-xxs-12 col-xs-12">
                                 <section>
                                     <label for="class">Parking spots:</label>
                                     <div class="wide">
@@ -292,7 +295,7 @@
 									</select>
                                     </div>
                                 </section>
-                            </div>
+                            </div> -->
                             <div class="col-xxs-12 col-xs-12 text-center">
                                 <p><a class="btn btn-primary btn-lg" href="#">Learn More</a></p>
                             </div>
